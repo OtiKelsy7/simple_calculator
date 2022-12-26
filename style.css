@@ -12,6 +12,14 @@ body {
     justify-content: center;
 }
 
+.outer-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: linear-gradient(top, red, blue);
+    background-color: -moz-linear-gradient(to bottom, red, blue);
+    background-color: -o-linear-gradient(to bottom, red, blue);
+}
+
 #container {
     background-color: #fff;
     border-radius: 15px;
@@ -44,7 +52,7 @@ body {
    border-radius: 50px;
 }
 
-#inner_input:active {
+#inner_input:active{
     color: black;
     background-color: darkgray;
 }
@@ -64,7 +72,6 @@ hr {
 #btn {
     width: 50px;
     height: 50px;
-    background-color: rgb(189, 177, 177);
     border: none;
     cursor: pointer;
     border-radius: 25px;
@@ -72,8 +79,14 @@ hr {
     box-shadow: 2.5px 2.5px rgba(25, 25, 25, .6);
 }
 
+.intBtn {
+    background-color: rgb(189, 177, 177);
+}
+
 .delBtn {
-    color: red;
+    color: wheat;
+    background-color: red;
+
 }
 
 .equalBtn {
@@ -82,5 +95,6 @@ hr {
 }
 
 .clearBtn {
-    color: red;
+    color: orangered;
+    background-color: orange;
 }

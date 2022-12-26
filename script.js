@@ -1,3 +1,4 @@
+// getting the input element from the HTML document
 let inputEl = document.getElementById("inner_input");
 //input function
 function input_el(num) {

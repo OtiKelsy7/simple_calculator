@@ -1,6 +1,7 @@
 // getting the input element from the HTML document
 
 let inputEl = document.getElementById("inner_input");
+
 //input function
 function input_el(num) {
     inputEl.value += num
@@ -9,7 +10,7 @@ function input_el(num) {
 //equals button function
 
 function equal() {
-    let result = parseInt(eval(inputEl.value))
+    let result = eval(inputEl.value)
     inputEl.value = result
 }
 
